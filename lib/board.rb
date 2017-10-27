@@ -39,12 +39,12 @@ class Board
   end
 
   def valid_move?(user_input)
-    
+
      user_input.to_i.between?(1,9) if !taken?(user_input)
   end
 
   def update(user_input,player)
-    user_input = user_input.to_i
+    # user_input = user_input.to_i
 
     cells[user_input.to_i-1] = player.token
 
