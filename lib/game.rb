@@ -79,7 +79,6 @@ class Game
       else
         puts "Congratulations #{winner}!"
       end
-      # binding.pry
   end
 
 
